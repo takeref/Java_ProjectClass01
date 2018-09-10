@@ -56,10 +56,10 @@ public class Celular {
 		this.modelo = modelo;
 	}
 	public String getColor()
-	{
+	{	
 		return color;
 	}
-	public void setcolor(String color)
+	public void setColor(String color)
 	{
 		this.color = color;
 	}
