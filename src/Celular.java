@@ -6,62 +6,49 @@ public class Celular {
 	private String color;
 	
 	//Constructor con parametros
-	public Celular(String marca, String modelo, String color)
-	{
+	public Celular(String marca, String modelo, String color){
 		this.marca = marca;
 		this.modelo = modelo;
 		this.color = color;
 	}
 	
 	//Constructor vacio
-	public Celular()
-	{
-		
+	public Celular(){
 	}
 	
 	//Metodo hacer llamada
-	public void llamar(String nombre)
-	{
+	public void llamar(String nombre){
 		System.out.println("llamando a: "+ nombre);
 	}
 	
 	//Metodo finalizar llamada
-	public void cortarLlamada()
-	{
+	public void cortarLlamada(){
 		System.out.println("llamanda finalizada");
 	}
 	//Metodo para informar de las caracteristicas del celular
-	public void informarCaracteristicas()
-	{
+	public void informarCaracteristicas(){
 		System.out.println(String.format("Celular Marca: %s", marca));
 		System.out.println(String.format("Celular Modelo: %s", modelo));
 		System.out.println(String.format("Celular Color: %s", color));
 	}
 	
 	//Los getters y setters 
-	public String getMarca()
-	{
+	public String getMarca(){
 		return marca;
 	}
-	public void setMarca(String marca)
-	{
+	public void setMarca(String marca){
 		this.marca = marca;
 	}
-	public String getModelo()
-	{
+	public String getModelo(){
 		return modelo;
 	}
-	public void  setModelo(String modelo)
-	{
+	public void  setModelo(String modelo){
 		this.modelo = modelo;
 	}
-	public String getColor()
-	{	
+	public String getColor(){
 		return color;
 	}
-	public void setColor(String color)
-	{
+	public void setColor(String color){
 		this.color = color;
 	}
-	
 }
