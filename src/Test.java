@@ -12,6 +12,7 @@ public class Test {
 		//utilizo los metodos llamar cortar llamada e informacion del telefono 
 		celular.llamar("Fer");
 		celular.cortarLlamada();
+		System.out.println();
 		celular.informarCaracteristicas();
 	}
 }
