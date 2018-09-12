@@ -17,13 +17,13 @@ public class SmartPhone extends Celular {
 		this.tamanioMemoriaExterna = tamaoDisco;
 	}
 
-	//Metodo sobrescrito (override), utilizo codigo de la clase celular y añado codigo que necesito
+	//Metodo sobrescrito (override), utilizo codigo de la clase celular y aï¿½ado codigo que necesito
 	public void informarCaracteristicas() {
 		// TODO Auto-generated method stub
 		super.informarCaracteristicas();
 		System.out.println(String.format("SmarPhone calida camara: %s pixeles", pixelesCamara));
-		System.out.println(String.format("SmarPhone tamaño de memoria interna: %s Gb",tamanioMemoriaInterna));
-		System.out.println(String.format("SmarPhone tamaño de memoria externa: %s Gb",tamanioMemoriaExterna));
+		System.out.println(String.format("SmarPhone tamaÃ±o de memoria interna: %s Gb",tamanioMemoriaInterna));
+		System.out.println(String.format("SmarPhone tamaÃ±o de memoria externa: %s Gb",tamanioMemoriaExterna));
 	}
 	
 	//getters y setters

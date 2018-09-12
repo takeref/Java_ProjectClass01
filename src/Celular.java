@@ -5,7 +5,7 @@ public class Celular {
 	private String modelo;
 	private String color;
 	
-	//Constructor con parametros
+	//Constructor con parametros(debera llamarse igual a la clase)| inicializa los atributos de la clase.
 	public Celular(String marca, String modelo, String color){
 		this.marca = marca;
 		this.modelo = modelo;
